@@ -23,13 +23,15 @@ function decrement(n) {
     return n;
 }
 function makeInt(n) {
-
-    return n;
+    console.log(parseInt(n, 10));
+    return parseInt(n, 10);
 }
 
 function preserveDecimal(n) {
     n = 2.222;
     return n;
 }
+
+
 
 
